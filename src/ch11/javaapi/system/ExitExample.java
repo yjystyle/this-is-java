@@ -16,7 +16,7 @@ public class ExitExample {
             try {
                 System.exit(i);
             } catch (SecurityException e) {
-                System.out.println(e.getLocalizedMessage());
+                System.out.println(e.getMessage());
             }
 
         }
